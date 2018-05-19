@@ -1,10 +1,12 @@
-проект Gradle, использование TestNG
+РїСЂРѕРµРєС‚ Gradle, РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ TestNG
 
-руководство:
-1. сделай проект Gradle
-2. скопируй файлы с git в проект
-3. в файле settings.gradle скопируй значение rootProject.name 'твое значение' http://joxi.ru/52aYV6Bt4PJOj2
-4. фаил build.gradle замени group 'testCS' на то которое было скопировано http://joxi.ru/823pVBvSJV7WeA
-5. открой панель gradle projects раскрой build нажми clean http://joxi.ru/Rmzk3Gou01goO2
-6. открой панель gradle projects раскрой build нажми build http://joxi.ru/v29lVBGF31MeXm
-7. открой панель gradle projects раскрой other нажми RunTests http://joxi.ru/gmvgKBlsL9aYJ2
+СЂСѓРєРѕРІРѕРґСЃС‚РІРѕ:
+1. СЃРґРµР»Р°Р№ РїСЂРѕРµРєС‚ Gradle
+2. СЃРєРѕРїРёСЂСѓР№ С„Р°Р№Р»С‹ СЃ git РІ РїСЂРѕРµРєС‚
+3. РІ С„Р°Р№Р»Рµ settings.gradle СЃРєРѕРїРёСЂСѓР№ Р·РЅР°С‡РµРЅРёРµ rootProject.name 'С‚РІРѕРµ Р·РЅР°С‡РµРЅРёРµ' http://joxi.ru/52aYV6Bt4PJOj2
+4. С„Р°РёР» build.gradle Р·Р°РјРµРЅРё group 'testCS' РЅР° С‚Рѕ РєРѕС‚РѕСЂРѕРµ Р±С‹Р»Рѕ СЃРєРѕРїРёСЂРѕРІР°РЅРѕ http://joxi.ru/823pVBvSJV7WeA
+5. РѕС‚РєСЂРѕР№ РїР°РЅРµР»СЊ gradle projects СЂР°СЃРєСЂРѕР№ build РЅР°Р¶РјРё clean http://joxi.ru/Rmzk3Gou01goO2
+6. РѕС‚РєСЂРѕР№ РїР°РЅРµР»СЊ gradle projects СЂР°СЃРєСЂРѕР№ build РЅР°Р¶РјРё build http://joxi.ru/v29lVBGF31MeXm
+7. РѕС‚РєСЂРѕР№ РїР°РЅРµР»СЊ gradle projects СЂР°СЃРєСЂРѕР№ other РЅР°Р¶РјРё RunTests http://joxi.ru/gmvgKBlsL9aYJ2
+
+PS (РјРѕР¶РµС‚ РїРѕС‚СЂРµР±РѕРІР°С‚СЊСЃСЏ СЃРєРѕРїРёСЂРѕРІР°С‚СЊ РґСЂР°РІРµСЂ РёР· lib РІ РїР°РїРєСѓ windows)
