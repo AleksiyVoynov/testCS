@@ -1,13 +1,14 @@
 package Tests;
 
+import org.testng.Assert;
 import org.testng.annotations.*;
-
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
 public class Tests extends BaseTest {
 
     @Test(description = "find data")
-    public void Search() throws FileNotFoundException {
+    public void Search() {
         app.steps.inputSearch("DEVELOPER");
     }
 
@@ -17,7 +18,7 @@ public class Tests extends BaseTest {
     }
 
     @Test(dependsOnMethods = {"AddResultsToCSV"}, description = "compare results with exemplar file")
-    public void CompareResults() {
-
+    public void CompareResults() throws IOException {
+        Assert.assertTrue(app.steps.compareTwoCSV(), "files are not equal");
     }
 }

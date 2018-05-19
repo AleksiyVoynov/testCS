@@ -16,18 +16,12 @@ public class MyDriverFactory {
         WebDriver driver;
         final String driverName = System.getProperty("driver");
 
-        if("firefox".equals(driverName)) {
-            System.setProperty("webdriver.gecko.driver", "lib//geckodriver.exe");
-            driver = new FirefoxDriver();
-        } else if ("chrome".equals(driverName)) {
+        if("chrome".equals(driverName)) {
             System.setProperty("webdriver.chrome.driver", "lib//chromedriver.exe");
             driver = new ChromeDriver();
-        } else if ("iedriver".equals(driverName)) {
-            System.setProperty("webdriver.ie.driver", "lib//IEDriverServer.exe");
-            driver = new InternetExplorerDriver();
         } else {
-            System.setProperty("webdriver.gecko.driver", "lib//geckodriver.exe");
-            driver = new FirefoxDriver();
+            System.setProperty("webdriver.chrome.driver", "lib//chromedriver.exe");
+            driver = new ChromeDriver();
         }
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
